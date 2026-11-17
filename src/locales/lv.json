@@ -1,0 +1,202 @@
+{
+  "errors": {
+    "userNotFound": "Lietotājs nav atrasts",
+    "agentNotFound": "Aģents nav atrasts",
+    "userDisabled": "Lietotājs ir atspējots",
+    "passwordMissing": "Parole nav iestatīta",
+    "wrongLogin": "Nepareizs lietotājvārds vai parole",
+    "forbidden": "Aizliegts",
+    "missingOrg": "Organizācija nav atrasta",
+    "deviceDisabled": "Lietotāja ierīce ir atspējota",
+    "userExists": "Lietotājs jau eksistē",
+    "emailExists": "E-pasts jau eksistē",
+    "orgExists": "Organizācija ar norādīto reģistrācijas numuru un valsti jau eksistē",
+    "userCreationFailed": "Neizdevās izveidot lietotāju",
+    "registrationFailed": "Lietotāja reģistrācija neizdevās",
+    "generic": "Radās kļūda",
+    "badGateway": "Vietējās pakalpojuma apstrāde neizdevās",
+    "serviceUnavailable": "Vietējais pakalpojums nav pieejams",
+    "internalError": "Vietējais pakalpojums neizdevās apstrādāt pieprasījumu",
+    "notFound": "Nav atrasts",
+    "resources": {
+      "orgMismatch": "Lietotāja organizācijas neatbilstība",
+      "orgNoAccess": "Lietotājam nav piekļuves šai organizācijai",
+      "orgNoBase": "Trūkst pamatresursa organizācijai",
+      "notFound": "Resursu pieprasījums nav atrasts",
+      "notActive": "Resurss nav aktīvs",
+      "hasChildren": "Resursam ir atkarīgi bērnresursi",
+      "securityGroupAssigned": "Drošības grupā ir aktīvas piešķiršanas"
+    },
+    "translations": {
+      "apiError": "Google Translate API kļūda"
+    },
+    "user": {
+      "failedToGet": "Neizdevās iegūt lietotājus",
+      "failedStatus": "Neizdevās mainīt lietotāja statusu"
+    },
+    "products": {
+      "failedToGet": "Neizdevās iegūt produktus",
+      "invalidResourceType": "Nederīgs resursa tips",
+      "createFailed": "Neizdevās izveidot produktu",
+      "notFound": "Produkts nav atrasts",
+      "updateFailed": "Neizdevās atjaunināt produktu",
+      "failedToDelete": "Neizdevās izdzēst produktu",
+      "failedDependencies": "Neizdevās iegūt produkta atkarības",
+      "invalidParentResourceType": "Nederīgs vecāku resursa tips",
+      "createDependencyFailed": "Neizdevās izveidot produkta atkarību",
+      "dependencyNotFound": "Produkta atkarība nav atrasta",
+      "dependencyUpdateFailed": "Neizdevās atjaunināt produkta atkarību",
+      "dependencyFailedToGet": "Neizdevās iegūt produkta atkarības",
+      "dependencyFailedToDelete": "Neizdevās izdzēst produkta atkarību",
+      "priceOverlap": "Šim produktam jau eksistē cena ar pārklājošu datumu diapazonu",
+      "priceNotFound": "Produkta cena nav atrasta",
+      "failedResources": "Neizdevās iegūt resursus",
+      "failedProductResources": "Neizdevās iegūt produkta resursus"
+    },
+    "organization": {
+      "orgNonActive": "Organizācija nav aktīva lietotājam",
+      "failedToSwitch": "Neizdevās pārslēgt organizāciju"
+    },
+    "lookups": {
+      "failedToGetLang": "Neizdevās iegūt valodas",
+      "failedToGetLookups": "Neizdevās iegūt vaicājumus",
+      "lookupExists": "Vaicājumu tips jau eksistē",
+      "failedToCreate": "Neizdevās izveidot vaicājumu",
+      "lookupNotFound": "Vaicājumu tips nav atrasts",
+      "failedToUpdate": "Neizdevās atjaunināt vaicājumu",
+      "lookupValueExists": "Vaicājumu vērtība jau eksistē"
+    },
+    "auth": {
+      "noUser": "Lietotājs nav atrasts",
+      "accountDisabled": "Konts ir atspējots",
+      "sessionFailed": "Sesijas izveide neizdevās",
+      "keycloakError": "Keycloak autorizācija neizdevās",
+      "expirationError": "Nevar atrast derīguma termiņu no tokena",
+      "orgError": "Lietotājam nav aktīvu organizācijas attiecību",
+      "loginError": "Lietotāja pieteikšanās neizdevās",
+      "refreshError": "Atjaunošanas tokena neizdevās",
+      "logoutError": "Izrakstīšanās neizdevās",
+      "generic": "Autentifikācijas kļūda",
+      "tooManyRequests": "Pārāk daudz pieprasījumu",
+      "tooManyOTPRequests": "Pārāk daudz OTP mēģinājumu e-pastam: {{email}}",
+      "noRedisToken": "Tokenu nevar atrast redis: {{email}}",
+      "otpExpired": "Otp ir beidzies: {{email}}",
+      "notApproved": "Lietotājs nav apstiprināts: {{email}}",
+      "captchaFailed": "Captcha validācija neizdevās",
+      "invalidResetToken": "Jūs izmantojat nederīgu vai novecojušu paroles atiestatīšanas saiti",
+      "invalidCredentials": "Nederīgs lietotājvārds vai parole",
+      "noActiveOrg": "Lietotājam nav aktīvu organizācijas attiecību"
+    },
+    "reg": {
+      "genericError": "Lietotāja reģistrācija neizdevās",
+      "userExists": "Lietotājs jau eksistē",
+      "emailExists": "E-pasts jau eksistē",
+      "userCreationFailed": "Neizdevās izveidot lietotāju",
+      "orgExists": "Organizācija ar norādīto reģistrācijas numuru un valsti jau eksistē"
+    },
+    "devices": {
+      "deviceDisabled": "Lietotāja ierīce ir atspējota"
+    },
+    "rag": {
+      "multipleFiles": "Viens pieprasījums atļauj tikai vienu failu. Augšupielādējiet vairākus failus paralēli",
+      "collectionRequired": "collectionUUID ir obligāts",
+      "fileRequired": "Fails ir obligāts",
+      "serviceNotAvailable": "Failu augšupielādes pakalpojums nav pieejams",
+      "uploadFailed": "Faila augšupielāde neizdevās",
+      "badGateway": "RAG pakalpojuma apstrāde neizdevās",
+      "serviceUnavailable": "RAG pakalpojums nav sasniedzams",
+      "internalError": "Pieprasījuma apstrāde neizdevās",
+      "processingFailed": "RAG pakalpojuma apstrāde neizdevās",
+      "createCollectionFailed": "Kolekcijas izveidošana neizdevās",
+      "deleteCollectionFailed": "Kolekcijas dzēšana neizdevās",
+      "chatMissingFiles": "Trūkst saistītu failu. Lūdzu, augšupielādējiet failus, lai iespējotu RAG funkcijas",
+      "deleteCollectionFileFailed": "Neizdevās izdzēst failu no kolekcijas"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Jūsu konts ir apstiprināts",
+      "title": "Konts apstiprināts",
+      "greeting": "Sveiki, {{firstName}}!",
+      "text": "Jūs saņēmāt šo e-pastu, jo jūsu konts ir apstiprināts, un tagad varat pieteikties.",
+      "link": "Pieslēgties",
+      "signature": "Paldies",
+      "team": "Platformas komanda",
+      "rightsReserved": "@2024 {{agentName}}. Visas tiesības aizsargātas."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Informācija par jūsu reģistrāciju",
+      "title": "Konts nav apstiprināts",
+      "greeting": "Cienījamais {{firstName}}!",
+      "text1": "Paldies par jūsu interesi par {{agentName}}. Mēs novērtējam jūsu interesi mūsu mākoņpakalpojumos.",
+      "text2": "Pārskatot jūsu reģistrāciju, diemžēl mēs nevaram apstiprināt jūsu kontu šobrīd.",
+      "signature": "Ar cieņu,",
+      "team": "Platformas komanda"
+    },
+    "userWaiting": {
+      "subject": "Jauns lietotājs reģistrējies {{name}}",
+      "title": "Jauns lietotājs gaida apstiprinājumu",
+      "subTitle": "Jauns lietotājs ir reģistrējies un gaida jūsu pārskatīšanu.",
+      "description": "Lūdzu, pārskatiet zemāk norādīto informāciju un izvēlieties, vai apstiprināt vai noraidīt kontu administrācijas panelī.",
+      "userInfo": "Lietotāja informācija",
+      "fullName": "Pilns vārds",
+      "email": "E-pasts",
+      "username": "Lietotājvārds",
+      "preferredLanguage": "Vēlamā valoda",
+      "registered": "Reģistrēts",
+      "clickToDashboard": "Noklikšķiniet, lai atvērtu administrācijas paneli",
+      "openBtn": "Atvērt administrācijas paneli",
+      "info": "Pēc lietotāja apstiprināšanas vai noraidīšanas, viņam automātiski tiks nosūtīts paziņojuma e-pasts ar lēmumu.",
+      "signature": "Paldies",
+      "team": "Platformas komanda",
+      "footer": " Šis ziņojums tika nosūtīts uz jūsu administratora e-pasta adresi. Ja uzskatāt, ka tas tika nosūtīts kļūdaini, sazinieties ar atbalsta dienestu."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} paroles atiestatīšanas pieprasījums",
+      "title": "Paroles atiestatīšanas pieprasījums",
+      "greeting": "Cienījamais {{name}}!",
+      "text1": "Jūs pieprasījāt paroles atiestatīšanu savam kontam.",
+      "text2": "Lūdzu, noklikšķiniet uz zemāk esošās saites, lai atiestatītu paroli:",
+      "link": "Atiestatīt paroli",
+      "signature": "Ar cieņu,",
+      "team": "Platformas komanda"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} vienreizējais kods",
+      "title": "Vienreizējs kods (OTP)",
+      "greeting": "Cienījamais {{name}}!",
+      "text1": "Jūs pieprasījāt paroles atiestatīšanu savam kontam.",
+      "text2": "Lūdzu, izmantojiet zemāk norādīto OTP kodu paroles atiestatīšanas apstiprināšanai:",
+      "link": "Atiestatīt paroli",
+      "signature": "Ar cieņu,",
+      "team": "Platformas komanda"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} uzaicinājums",
+      "title": "Uzaicinājums pievienoties {{orgName}}",
+      "greeting": "Cienījamais {{name}}!",
+      "text1": "Jūs esat uzaicināts pievienoties organizācijai {{orgName}}.",
+      "text2": "Lūdzu, noklikšķiniet uz zemāk esošās saites, lai pieņemtu uzaicinājumu:",
+      "link": "Pieņemt uzaicinājumu",
+      "signature": "Ar cieņu,",
+      "team": "Platformas komanda"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Neizdevās sagatavot resursu. Lūdzu, mēģiniet vēlreiz vēlāk."
+  },
+  "userInvitation": {
+    "userCreateError": "Neizdevās izveidot lietotāju",
+    "organizationNotFound": "Organizācija nav atrasta",
+    "activeInviteExists": "Šim e-pastam un organizācijai jau pastāv aktīvs uzaicinājums",
+    "externalServiceError": "Radās ārējā pakalpojuma kļūda",
+    "userNotFound": "Lietotājs nav atrasts",
+    "emailMismatch": "E-pasts neatbilst uzaicinājumam",
+    "invalidInvitationCode": "Nederīgs vai beidzies uzaicinājuma kods",
+    "otpRequired": "Nepieciešams OTP kods",
+    "invalidOTP": "Nederīgs vai beidzies OTP kods",
+    "invitationNotFound": "Uzaicinājums nav atrasts",
+    "alreadyExpired": "Uzaicinājums jau ir beidzies",
+    "emailError": "Neizdevās nosūtīt uzaicinājuma e-pastu. E-pasta pakalpojuma kļūda"
+  }
+}

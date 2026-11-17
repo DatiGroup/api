@@ -1,0 +1,200 @@
+<!--
+  Placeholders: {{name}}, {{email}}, {{username}}, {{language}}, {{createdAt}}, {{loginUl}}
+-->
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>{{t "templates.userWaiting.title"}}</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+        }
+
+        .email-wrapper {
+            width: 100%;
+            padding: 24px 16px;
+            text-align: center;
+            background-color: #f3f4f6;
+        }
+
+        .container {
+            display: inline-block;
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .header {
+            padding: 20px 24px;
+            background-color: var(--primary-color);
+            color: var(--primary-color-text);
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.2;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header-sub {
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 1.3;
+            padding: 4px 0 0 0;
+            margin: 0;
+        }
+
+        .body {
+            padding: 24px;
+            color: #334155;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .userinfo {
+            border-radius: 6px;
+            margin: 18px 0;
+            padding: 16px;
+            background-color: #f8f9fa;
+        }
+
+        .userinfo-title {
+            color: #0f172a;
+            font-weight: bold;
+            margin: 0 0 6px 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .userinfo-row {
+            display: table;
+            width: 100%;
+            margin: 0px;
+            padding: 2px;
+        }
+
+        .userinfo-label {
+            display: table-cell;
+            width: 140px;
+            font-size: 14px;
+            color: #475569;
+            vertical-align: top;
+            padding: 0;
+            margin: 0;
+        }
+
+        .userinfo-value {
+            display: table-cell;
+            font-size: 14px;
+            color: #475569;
+            vertical-align: top;
+            padding: 0;
+            margin: 0;
+        }
+
+        .btn-dashboard {
+            display: inline-block;
+            padding: 10px 14px;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 6px;
+            background-color: var(--primary-color);
+            color: var(--primary-color-text);
+        }
+
+        .footer {
+            background: #f8fafc;
+            padding: 16px 24px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        .separator {
+            border: none;
+            border-top: 1px solid #eef2f7;
+            margin: 22px 0;
+            height: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-wrapper">
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-title">{{t "templates.userWaiting.title"}}</div>
+                <div class="header-sub">{{t "templates.userWaiting.subTitle"}}</div>
+            </div>
+
+            <!-- Body -->
+            <div class="body">
+                <p style="margin:0 0 18px;">{{t "templates.userWaiting.description"}}</p>
+
+                <!-- User info -->
+                <div class="userinfo">
+                    <div class="userinfo-title">{{t "templates.userWaiting.userInfo"}}</div>
+
+                    <div class="userinfo-row">
+                        <div class="userinfo-label">{{t "templates.userWaiting.fullName"}}:</div>
+                        <div class="userinfo-value">{{name}}</div>
+                    </div>
+                    
+                    <div class="userinfo-row">
+                        <div class="userinfo-label">{{t "templates.userWaiting.email"}}:</div>
+                        <div class="userinfo-value">{{email}}</div>
+                    </div>                    <div class="userinfo-row">
+                        <div class="userinfo-label">{{t "templates.userWaiting.username"}}:</div>
+                        <div class="userinfo-value">{{username}}</div>
+                    </div>
+
+                    <div class="userinfo-row">
+                        <div class="userinfo-label">{{t "templates.userWaiting.preferredLanguage"}}:</div>
+                        <div class="userinfo-value">{{language}}</div>
+                    </div>
+
+                    <div class="userinfo-row">
+                        <div class="userinfo-label">{{t "templates.userWaiting.registered"}}:</div>
+                        <div class="userinfo-value">{{createdAt}}</div>
+                    </div>
+                </div>
+
+                <p style="margin:0 0 12px; font-size:13px; color:#64748b;">{{t
+                    "templates.userWaiting.clickToDashboard"}}</p>
+                
+                <!-- Simple link instead of button-style -->
+                <p style="margin:0 0 18px;">
+                    <a href="{{loginUrl}}" target="_blank" style="color:#0066cc; text-decoration:underline; font-size:14px;">{{t
+                        "templates.userWaiting.openBtn"}}</a>
+                </p>
+
+                <hr class="separator" />
+
+                <p style="margin:0; font-size:13px; color:#475569;">{{t "templates.userWaiting.info"}}</p>
+
+                <p style="margin:18px 0 0; font-size:13px; color:#64748b;">{{t
+                    "templates.userWaiting.signature"}}<br />{{t "templates.userWaiting.team"}}</p>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                {{t "templates.userWaiting.footer"}}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

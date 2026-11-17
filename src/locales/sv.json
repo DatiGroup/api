@@ -1,0 +1,200 @@
+{
+  "errors": {
+    "userNotFound": "Användare hittades inte",
+    "agentNotFound": "Agent hittades inte",
+    "userDisabled": "Användaren är inaktiverad",
+    "passwordMissing": "Lösenord är inte inställt",
+    "wrongLogin": "Felaktigt användarnamn eller lösenord",
+    "forbidden": "Förbjudet",
+    "missingOrg": "Organisation hittades inte",
+    "deviceDisabled": "Användarens enhet är inaktiverad",
+    "userExists": "Användaren finns redan",
+    "emailExists": "E-postadressen finns redan",
+    "orgExists": "Organisationen med det angivna registreringsnumret och landet finns redan",
+    "userCreationFailed": "Misslyckades att skapa användare",
+    "registrationFailed": "Användarregistreringen misslyckades",
+    "generic": "Något gick fel",
+    "badGateway": "Externa tjänstens bearbetning misslyckades",
+    "serviceUnavailable": "Externa tjänsten är otillgänglig",
+    "internalError": "Externa tjänsten misslyckades att bearbeta förfrågan",
+    "notFound": "Hittades inte",
+    "resources": {
+      "orgMismatch": "Användarens organisationsmismatch",
+      "orgNoAccess": "Användaren har inte tillgång till denna organisation",
+      "orgNoBase": "Saknar basresurs för organisation",
+      "notFound": "Resursförfrågan hittades inte",
+      "notActive": "Resursen är inte aktiv",
+      "hasChildren": "Resursen har beroende underresurser",
+      "securityGroupAssigned": "Säkerhetsgruppen har aktiva tilldelningar"
+    },
+    "translations": {
+      "apiError": "Google Translate API-fel"
+    },
+    "user": {
+      "failedToGet": "Misslyckades att hämta användare",
+      "failedStatus": "Misslyckades att ändra användarstatus"
+    },
+    "products": {
+      "failedToGet": "Misslyckades att hämta produkter",
+      "invalidResourceType": "Ogiltig resurstyp",
+      "createFailed": "Misslyckades att skapa produkt",
+      "notFound": "Produkten hittades inte",
+      "updateFailed": "Misslyckades att uppdatera produkt",
+      "failedToDelete": "Misslyckades att ta bort produkt",
+      "failedDependencies": "Misslyckades att hämta produktberoenden",
+      "invalidParentResourceType": "Ogiltig överordnad resurstyp",
+      "createDependencyFailed": "Misslyckades att skapa produktberoende",
+      "dependencyNotFound": "Produktberoende hittades inte",
+      "dependencyUpdateFailed": "Misslyckades att uppdatera produktberoende",
+      "dependencyFailedToGet": "Misslyckades att hämta produktberoenden",
+      "dependencyFailedToDelete": "Misslyckades att ta bort produktberoende",
+      "priceOverlap": "En pris med överlappande datumintervall finns redan för denna produkt",
+      "priceNotFound": "Produktpris hittades inte",
+      "failedResources": "Misslyckades att hämta resurser",
+      "failedProductResources": "Misslyckades att hämta produktresurser"
+    },
+    "organization": {
+      "orgNonActive": "Organisationen är inte aktiv för användaren",
+      "failedToSwitch": "Misslyckades att byta organisation"
+    },
+    "lookups": {
+      "failedToGetLang": "Misslyckades att hämta språk",
+      "failedToGetLookups": "Misslyckades att hämta uppslag",
+      "lookupExists": "Uppslagstyp finns redan",
+      "failedToCreate": "Misslyckades att skapa uppslag",
+      "lookupNotFound": "Uppslagstyp hittades inte",
+      "failedToUpdate": "Misslyckades att uppdatera uppslag",
+      "lookupValueExists": "Uppslagsvärde finns redan"
+    },
+    "auth": {
+      "noUser": "Användare hittades inte",
+      "accountDisabled": "Kontot är inaktiverat",
+      "sessionFailed": "Session skapades inte",
+      "keycloakError": "Keycloak-auktorisering misslyckades",
+      "expirationError": "Kan inte hitta utgångstid från token",
+      "orgError": "Användaren har inga aktiva organisationsrelationer",
+      "loginError": "Användarinloggning misslyckades",
+      "refreshError": "Uppdateringstoken misslyckades",
+      "logoutError": "Utloggning misslyckades",
+      "generic": "Autentiseringsfel",
+      "tooManyRequests": "För många förfrågningar",
+      "tooManyOTPRequests": "För många OTP-försök för e-post: {{email}}",
+      "noRedisToken": "Kan inte hitta token i redis: {{email}}",
+      "otpExpired": "Otp har gått ut: {{email}}",
+      "notApproved": "Användaren är inte godkänd: {{email}}",
+      "captchaFailed": "Captcha validering misslyckades",
+      "invalidResetToken": "Du använder en ogiltig eller utgången länk för återställning av lösenord",
+      "invalidCredentials": "Ogiltigt användarnamn eller lösenord",
+      "noActiveOrg": "Användaren har inga aktiva organisationsrelationer"
+    },
+    "reg": {
+      "genericError": "Användarregistrering misslyckades",
+      "userExists": "Användaren finns redan",
+      "emailExists": "E-post finns redan",
+      "userCreationFailed": "Misslyckades att skapa användare",
+      "orgExists": "Organisation med det angivna registreringsnumret och landet finns redan"
+    },
+    "devices": {
+      "deviceDisabled": "Användarens enhet är inaktiverad"
+    },
+    "rag": {
+      "multipleFiles": "Endast en fil per förfrågan är tillåten. Ladda upp flera filer parallellt.",
+      "collectionRequired": "collectionUUID krävs",
+      "fileRequired": "Fil krävs",
+      "serviceNotAvailable": "Filuppladdningstjänsten är inte tillgänglig",
+      "uploadFailed": "Filuppladdning misslyckades",
+      "badGateway": "RAG-tjänstens bearbetning misslyckades",
+      "serviceUnavailable": "RAG-tjänsten är inte nåbar",
+      "internalError": "Bearbetning av begäran misslyckades",
+      "processingFailed": "RAG-tjänstens bearbetning misslyckades",
+      "createCollectionFailed": "Misslyckades med att skapa samling",
+      "deleteCollectionFileFailed": "Misslyckades med att ta bort fil från samling"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Ditt konto har godkänts",
+      "title": "Konto godkänt",
+      "greeting": "Hej, {{firstName}}!",
+      "text": "Du har fått detta e-postmeddelande eftersom ditt konto har godkänts och du kan nu logga in.",
+      "link": "Logga in",
+      "signature": "Tack",
+      "team": "Plattformsteamet",
+      "rightsReserved": "@2024 {{agentName}}. Alla rättigheter förbehållna."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Uppdatering om din registrering",
+      "title": "Kontot inte godkänt",
+      "greeting": "Hej, {{firstName}}!",
+      "text1": "Tack för ditt intresse för {{agentName}}. Vi uppskattar ditt intresse för våra molntjänster.",
+      "text2": "Efter att ha granskat din registrering beklagar vi att vi för närvarande inte kan godkänna ditt konto.",
+      "signature": "Vänliga hälsningar,",
+      "team": "Plattformsteamet"
+    },
+    "userWaiting": {
+      "subject": "Ny användare registrerad {{name}}",
+      "title": "Ny användare väntar på godkännande",
+      "subTitle": "En ny användare har registrerat sig och behöver din granskning.",
+      "description": "Granska informationen nedan och välj om du vill godkänna eller avvisa kontot i adminpanelen.",
+      "userInfo": "Användarinformation",
+      "fullName": "Fullständigt namn",
+      "email": "E-post",
+      "username": "Användarnamn",
+      "preferredLanguage": "Föredraget språk",
+      "registered": "Registrerad",
+      "clickToDashboard": "Klicka för att gå till adminpanelen",
+      "openBtn": "Öppna adminpanelen",
+      "info": "När du har godkänt eller avvisat användaren skickas automatiskt ett e-postmeddelande till användaren med beslutet.",
+      "signature": "Tack",
+      "team": "Plattformsteamet",
+      "footer": " Detta meddelande skickades till din administratörs e-postadress. Om du tror att detta skickats av misstag, kontakta supporten."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} begäran om återställning av lösenord",
+      "title": "Begäran om återställning av lösenord",
+      "greeting": "Hej, {{name}}!",
+      "text1": "Du har begärt att återställa lösenordet för ditt konto.",
+      "text2": "Klicka på länken nedan för att återställa ditt lösenord:",
+      "link": "Återställ lösenord",
+      "signature": "Vänliga hälsningar,",
+      "team": "Plattformsteamet"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} engångskod",
+      "title": "Engångskod (OTP)",
+      "greeting": "Hej, {{name}}!",
+      "text1": "Du har begärt att återställa lösenordet för ditt konto.",
+      "text2": "Använd följande OTP-kod för att bekräfta återställning av lösenord:",
+      "link": "Återställ lösenord",
+      "signature": "Vänliga hälsningar,",
+      "team": "Plattformsteamet"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} inbjudan",
+      "title": "Inbjudan att gå med i {{orgName}}",
+      "greeting": "Hej, {{name}}!",
+      "text1": "Du är inbjuden att gå med i organisationen {{orgName}}.",
+      "text2": "Klicka på länken nedan för att acceptera inbjudan:",
+      "link": "Acceptera inbjudan",
+      "signature": "Vänliga hälsningar,",
+      "team": "Plattformsteamet"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Misslyckades att tillhandahålla resurs. Försök igen senare."
+  },
+  "userInvitation": {
+    "userCreateError": "Misslyckades att skapa användare",
+    "organizationNotFound": "Organisationen hittades inte",
+    "activeInviteExists": "Ett aktivt inbjudan finns redan för denna e-post och organisation",
+    "externalServiceError": "Ett fel uppstod i extern tjänst",
+    "userNotFound": "Användare hittades inte",
+    "emailMismatch": "E-post matchar inte inbjudan",
+    "invalidInvitationCode": "Ogiltig eller utgången inbjudningskod",
+    "otpRequired": "OTP-kod krävs",
+    "invalidOTP": "Ogiltig eller utgången OTP-kod",
+    "invitationNotFound": "Inbjudan hittades inte",
+    "alreadyExpired": "Inbjudan är redan utgången",
+    "emailError": "Misslyckades att skicka inbjudningsmail. E-posttjänstfel"
+  }
+}

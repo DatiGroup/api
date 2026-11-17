@@ -1,0 +1,200 @@
+{
+  "errors": {
+    "userNotFound": "Käyttäjää ei löytynyt",
+    "agentNotFound": "Agenttia ei löytynyt",
+    "userDisabled": "Käyttäjä on poistettu käytöstä",
+    "passwordMissing": "Salasanaa ei ole asetettu",
+    "wrongLogin": "Virheellinen käyttäjätunnus tai salasana",
+    "forbidden": "Kielletty",
+    "missingOrg": "Organisaatiota ei löytynyt",
+    "deviceDisabled": "Käyttäjän laite on poistettu käytöstä",
+    "userExists": "Käyttäjä on jo olemassa",
+    "emailExists": "Sähköposti on jo olemassa",
+    "orgExists": "Organisaatio, jolla on annettu rekisterinumero ja maa, on jo olemassa",
+    "userCreationFailed": "Käyttäjän luominen epäonnistui",
+    "registrationFailed": "Käyttäjän rekisteröinti epäonnistui",
+    "generic": "Jotain meni pieleen",
+    "badGateway": "Väliteenuksen käsittely epäonnistui",
+    "serviceUnavailable": "Väliteenusta ei ole saatavilla",
+    "internalError": "Väliteenuksen käsittely epäonnistui",
+    "notFound": "Ei löytynyt",
+    "resources": {
+      "orgMismatch": "Käyttäjän organisaatio ei täsmää",
+      "orgNoAccess": "Käyttäjällä ei ole pääsyä tähän organisaatioon",
+      "orgNoBase": "Puuttuva perusresurssi organisaatiolle",
+      "notFound": "Ressurskipyyntöä ei löytynyt",
+      "notActive": "Resurssi ei ole aktiivinen",
+      "hasChildren": "Resurssilla on riippuvaisia aliresursseja",
+      "securityGroupAssigned": "Turvaryhmässä on aktiivisia määrityksiä"
+    },
+    "translations": {
+      "apiError": "Google Translate API -virhe"
+    },
+    "user": {
+      "failedToGet": "Käyttäjien hakeminen epäonnistui",
+      "failedStatus": "Käyttäjän tilan muuttaminen epäonnistui"
+    },
+    "products": {
+      "failedToGet": "Tuotteiden hakeminen epäonnistui",
+      "invalidResourceType": "Virheellinen resurssityyppi",
+      "createFailed": "Tuotteen luominen epäonnistui",
+      "notFound": "Tuotetta ei löytynyt",
+      "updateFailed": "Tuotteen päivittäminen epäonnistui",
+      "failedToDelete": "Tuotteen poistaminen epäonnistui",
+      "failedDependencies": "Tuotteen riippuvuuksien hakeminen epäonnistui",
+      "invalidParentResourceType": "Virheellinen vanhemman resurssin tyyppi",
+      "createDependencyFailed": "Tuotteen riippuvuuden luominen epäonnistui",
+      "dependencyNotFound": "Tuotteen riippuvuutta ei löytynyt",
+      "dependencyUpdateFailed": "Tuotteen riippuvuuden päivittäminen epäonnistui",
+      "dependencyFailedToGet": "Tuotteen riippuvuuksien hakeminen epäonnistui",
+      "dependencyFailedToDelete": "Tuotteen riippuvuuden poistaminen epäonnistui",
+      "priceOverlap": "Tälle tuotteelle on jo olemassa hinta, jonka päivämääräväli on päällekkäinen",
+      "priceNotFound": "Tuotteen hintaa ei löytynyt",
+      "failedResources": "Ressurssien hakeminen epäonnistui",
+      "failedProductResources": "Tuotteen resurssien hakeminen epäonnistui"
+    },
+    "organization": {
+      "orgNonActive": "Organisaatio ei ole aktiivinen käyttäjälle",
+      "failedToSwitch": "Organisaation vaihto epäonnistui"
+    },
+    "lookups": {
+      "failedToGetLang": "Kielten hakeminen epäonnistui",
+      "failedToGetLookups": "Vaatimusarvojen hakeminen epäonnistui",
+      "lookupExists": "Vaatimusarvotyyppi on jo olemassa",
+      "failedToCreate": "Vaatimusarvojen luominen epäonnistui",
+      "lookupNotFound": "Vaatimusarvotyyppiä ei löytynyt",
+      "failedToUpdate": "Vaatimusarvojen päivittäminen epäonnistui",
+      "lookupValueExists": "Vaatimusarvon arvo on jo olemassa"
+    },
+    "auth": {
+      "noUser": "Käyttäjää ei löytynyt",
+      "accountDisabled": "Tili on poistettu käytöstä",
+      "sessionFailed": "Istunnon luominen epäonnistui",
+      "keycloakError": "Keycloak-valtuutus epäonnistui",
+      "expirationError": "Tokenin vanhenemisaikaa ei löytynyt",
+      "orgError": "Käyttäjällä ei ole aktiivisia organisaatiosuhteita",
+      "loginError": "Käyttäjän kirjautuminen epäonnistui",
+      "refreshError": "Värskennystoken epäonnistui",
+      "logoutError": "Kirjautuminen ulos epäonnistui",
+      "generic": "Autentikointivirhe",
+      "tooManyRequests": "Liian monta pyyntöä",
+      "tooManyOTPRequests": "Liian monta OTP-yritystä sähköpostille: {{email}}",
+      "noRedisToken": "Tokenia ei löydy redisistä: {{email}}",
+      "otpExpired": "Otp vanhentunut: {{email}}",
+      "notApproved": "Käyttäjää ei ole hyväksytty: {{email}}",
+      "captchaFailed": "Captcha validointi epäonnistui",
+      "invalidResetToken": "Käytät virheellistä tai vanhentunutta salasanan palautuslinkkiä",
+      "invalidCredentials": "Virheellinen käyttäjänimi tai salasana",
+      "noActiveOrg": "Käyttäjällä ei ole aktiivisia organisaatiosuhteita"
+    },
+    "reg": {
+      "genericError": "Käyttäjän rekisteröinti epäonnistui",
+      "userExists": "Käyttäjä on jo olemassa",
+      "emailExists": "Sähköposti on jo olemassa",
+      "userCreationFailed": "Käyttäjän luominen epäonnistui",
+      "orgExists": "Organisaatio, jolla on annettu rekisterinumero ja maa, on jo olemassa"
+    },
+    "devices": {
+      "deviceDisabled": "Käyttäjän laite on poistettu käytöstä"
+    },
+    "rag": {
+      "multipleFiles": "Vain yksi tiedosto pyyntöä kohti on sallittu. Lataa useita tiedostoja rinnakkain",
+      "collectionRequired": "collectionUUID on pakollinen",
+      "fileRequired": "Tiedosto on pakollinen",
+      "serviceNotAvailable": "Tiedoston latauspalvelu ei ole käytettävissä",
+      "uploadFailed": "Tiedoston lataus epäonnistui",
+      "badGateway": "RAG-palvelun käsittely epäonnistui",
+      "serviceUnavailable": "RAG-palvelu ei ole tavoitettavissa",
+      "internalError": "Pyynnön käsittely epäonnistui",
+      "processingFailed": "RAG-palvelun käsittely epäonnistui",
+      "createCollectionFailed": "Kokoelman luominen epäonnistui",
+      "deleteCollectionFileFailed": "Tiedoston poistaminen kokoelmasta epäonnistui"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Tilisi on hyväksytty",
+      "title": "Tili hyväksytty",
+      "greeting": "Hei, {{firstName}}!",
+      "text": "Sait tämän sähköpostin, koska tilisi on hyväksytty ja voit nyt kirjautua sisään.",
+      "link": "Kirjaudu sisään",
+      "signature": "Kiitos",
+      "team": "Alustan tiimi",
+      "rightsReserved": "@2024 {{agentName}}. Kaikki oikeudet pidätetään."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Ilmoitus rekisteröitymisestäsi",
+      "title": "Tilihakemus hylätty",
+      "greeting": "Hyvä {{firstName}}!",
+      "text1": "Kiitos mielenkiinnostasi {{agentName}}-palvelua kohtaan. Arvostamme kiinnostustasi pilvipalveluihimme.",
+      "text2": "Tarkasteltuamme rekisteröitymisesi joudumme valitettavasti ilmoittamaan, että emme voi hyväksyä tiliäsi tällä hetkellä.",
+      "signature": "Ystävällisin terveisin,",
+      "team": "Alustan tiimi"
+    },
+    "userWaiting": {
+      "subject": "Uusi käyttäjä rekisteröitynyt {{name}}",
+      "title": "Uusi käyttäjä odottaa hyväksyntää",
+      "subTitle": "Uusi käyttäjä on rekisteröitynyt ja tarvitsee hyväksyntäsi.",
+      "description": "Tarkista alla olevat tiedot ja päätä, hyväksytkö vai hylkäätkö tilin hallintapaneelissa.",
+      "userInfo": "Käyttäjätiedot",
+      "fullName": "Koko nimi",
+      "email": "Sähköposti",
+      "username": "Käyttäjätunnus",
+      "preferredLanguage": "Ensisijainen kieli",
+      "registered": "Rekisteröitynyt",
+      "clickToDashboard": "Siirry hallintapaneeliin napsauttamalla tästä",
+      "openBtn": "Avaa hallintapaneeli",
+      "info": "Kun hyväksyt tai hylkäät käyttäjän, hänelle lähetetään automaattisesti sähköposti päätöksestä.",
+      "signature": "Kiitos",
+      "team": "Alustan tiimi",
+      "footer": " Tämä viesti lähetettiin järjestelmänvalvojan sähköpostiosoitteeseen. Jos uskot, että tämä viesti on virheellinen, ota yhteyttä tukeen."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} salasanan palautuspyyntö",
+      "title": "Salasanan palautuspyyntö",
+      "greeting": "Hyvä {{name}}!",
+      "text1": "Olet pyytänyt salasanasi palauttamista.",
+      "text2": "Napsauta alla olevaa linkkiä palauttaaksesi salasanasi:",
+      "link": "Palauta salasana",
+      "signature": "Ystävällisin terveisin,",
+      "team": "Alustan tiimi"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} kertakäyttökoodi",
+      "title": "Kertakäyttökoodi (OTP)",
+      "greeting": "Hyvä {{name}}!",
+      "text1": "Olet pyytänyt salasanasi palauttamista.",
+      "text2": "Käytä alla olevaa OTP-koodia vahvistaaksesi salasanan palautuksen:",
+      "link": "Palauta salasana",
+      "signature": "Ystävällisin terveisin,",
+      "team": "Alustan tiimi"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} kutsu",
+      "title": "Kutsu liittyä organisaatioon {{orgName}}",
+      "greeting": "Hyvä {{name}}!",
+      "text1": "Sinut on kutsuttu liittymään organisaatioon {{orgName}}.",
+      "text2": "Hyväksy kutsu klikkaamalla alla olevaa linkkiä:",
+      "link": "Hyväksy kutsu",
+      "signature": "Ystävällisin terveisin,",
+      "team": "Alustan tiimi"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Resurssien valmistelu epäonnistui. Yritä myöhemmin uudelleen."
+  },
+  "userInvitation": {
+    "userCreateError": "Käyttäjän luominen epäonnistui",
+    "organizationNotFound": "Organisaatiota ei löydy",
+    "activeInviteExists": "Tälle sähköpostille ja organisaatiolle on jo aktiivinen kutsu",
+    "externalServiceError": "Tapahtui ulkoisen palvelun virhe",
+    "userNotFound": "Käyttäjää ei löytynyt",
+    "emailMismatch": "Sähköposti ei vastaa kutsua",
+    "invalidInvitationCode": "Virheellinen tai vanhentunut kutsukoodi",
+    "otpRequired": "OTP-koodi vaaditaan",
+    "invalidOTP": "Virheellinen tai vanhentunut OTP-koodi",
+    "invitationNotFound": "Kutsua ei löytynyt",
+    "alreadyExpired": "Kutsu on jo vanhentunut",
+    "emailError": "Kutsusähköpostin lähetys epäonnistui. Sähköpostipalvelun virhe"
+  }
+}

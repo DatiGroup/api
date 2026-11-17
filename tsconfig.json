@@ -1,0 +1,33 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "sourceMap": true,
+    "target": "es2020",
+    "strict": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": false,
+    "useUnknownInCatchVariables": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node", "jest"]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/**/*.ts",
+    "./src/**/*.d.ts",
+    "./src/types/**/*.d.ts",
+    "scripts/copyTemplates.js"
+  ],
+  "exclude": ["node_modules", "public", "dist"],
+  "watchOptions": {
+    "watchFile": "fixedPollingInterval",
+    "watchDirectory": "fixedPollingInterval"
+  }
+}
