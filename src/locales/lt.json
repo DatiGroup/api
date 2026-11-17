@@ -1,0 +1,200 @@
+{
+  "errors": {
+    "userNotFound": "Vartotojas nerastas",
+    "agentNotFound": "Agentas nerastas",
+    "userDisabled": "Vartotojas yra išjungtas",
+    "passwordMissing": "Slaptažodis nenustatytas",
+    "wrongLogin": "Neteisingas vartotojo vardas arba slaptažodis",
+    "forbidden": "Draudžiama",
+    "missingOrg": "Organizacija nerasta",
+    "deviceDisabled": "Vartotojo įrenginys išjungtas",
+    "userExists": "Vartotojas jau egzistuoja",
+    "emailExists": "El. paštas jau egzistuoja",
+    "orgExists": "Organizacija su nurodytu registracijos numeriu ir šalimi jau egzistuoja",
+    "userCreationFailed": "Nepavyko sukurti vartotojo",
+    "registrationFailed": "Vartotojo registracija nepavyko",
+    "generic": "Įvyko klaida",
+    "badGateway": "Išorinės paslaugos apdorojimas nepavyko",
+    "serviceUnavailable": "Išorinė paslauga nepasiekiama",
+    "internalError": "Išorinė paslauga nepavyko apdoroti užklausos",
+    "notFound": "Nerasta",
+    "resources": {
+      "orgMismatch": "Vartotojo organizacijos neatitikimas",
+      "orgNoAccess": "Vartotojas neturi prieigos prie šios organizacijos",
+      "orgNoBase": "Trūksta pagrindinio ištekliaus organizacijai",
+      "notFound": "Išteklių užklausa nerasta",
+      "notActive": "Išteklius nėra aktyvus",
+      "hasChildren": "Išteklius turi priklausomų antrinių išteklių",
+      "securityGroupAssigned": "Saugumo grupėje yra aktyvių priskyrimų"
+    },
+    "translations": {
+      "apiError": "Google Translate API klaida"
+    },
+    "user": {
+      "failedToGet": "Nepavyko gauti vartotojų",
+      "failedStatus": "Nepavyko pakeisti vartotojo būsenos"
+    },
+    "products": {
+      "failedToGet": "Nepavyko gauti produktų",
+      "invalidResourceType": "Neteisingas išteklių tipas",
+      "createFailed": "Nepavyko sukurti produkto",
+      "notFound": "Produktas nerastas",
+      "updateFailed": "Nepavyko atnaujinti produkto",
+      "failedToDelete": "Nepavyko ištrinti produkto",
+      "failedDependencies": "Nepavyko gauti produkto priklausomybių",
+      "invalidParentResourceType": "Neteisingas tėvinio išteklių tipas",
+      "createDependencyFailed": "Nepavyko sukurti produkto priklausomybės",
+      "dependencyNotFound": "Produkto priklausomybė nerasta",
+      "dependencyUpdateFailed": "Nepavyko atnaujinti produkto priklausomybės",
+      "dependencyFailedToGet": "Nepavyko gauti produkto priklausomybių",
+      "dependencyFailedToDelete": "Nepavyko ištrinti produkto priklausomybės",
+      "priceOverlap": "Tälle produktui jau egzistuoja kaina, kurios datos persidengia",
+      "priceNotFound": "Produkto kaina nerasta",
+      "failedResources": "Nepavyko gauti išteklių",
+      "failedProductResources": "Nepavyko gauti produkto išteklių"
+    },
+    "organization": {
+      "orgNonActive": "Organizacija nėra aktyvi vartotojui",
+      "failedToSwitch": "Nepavyko perjungti organizacijos"
+    },
+    "lookups": {
+      "failedToGetLang": "Nepavyko gauti kalbų",
+      "failedToGetLookups": "Nepavyko gauti vaizdinių duomenų",
+      "lookupExists": "Vaizdinių duomenų tipas jau egzistuoja",
+      "failedToCreate": "Nepavyko sukurti vaizdinių duomenų",
+      "lookupNotFound": "Vaizdinių duomenų tipas nerastas",
+      "failedToUpdate": "Nepavyko atnaujinti vaizdinių duomenų",
+      "lookupValueExists": "Vaizdinių duomenų reikšmė jau egzistuoja"
+    },
+    "auth": {
+      "noUser": "Vartotojas nerastas",
+      "accountDisabled": "Paskyra išjungta",
+      "sessionFailed": "Nepavyko sukurti sesijos",
+      "keycloakError": "Keycloak autorizacija nepavyko",
+      "expirationError": "Nepavyko rasti tokeno galiojimo laiko",
+      "orgError": "Vartotojas neturi aktyvių organizacijos ryšių",
+      "loginError": "Vartotojo prisijungimas nepavyko",
+      "refreshError": "Atnaujinimo tokenas nepavyko",
+      "logoutError": "Atsijungimas nepavyko",
+      "generic": "Autentifikavimo klaida",
+      "tooManyRequests": "Per daug užklausų",
+      "tooManyOTPRequests": "Per daug OTP bandymų el. paštui: {{email}}",
+      "noRedisToken": "Tokeno nerasta redis: {{email}}",
+      "otpExpired": "Otp pasibaigė: {{email}}",
+      "notApproved": "Vartotojas nėra patvirtintas: {{email}}",
+      "captchaFailed": "Captcha validacija nepavyko",
+      "invalidResetToken": "Naudojate negaliojančią arba pasibaigusią slaptažodžio atstatymo nuorodą",
+      "invalidCredentials": "Neteisingas vartotojo vardas arba slaptažodis",
+      "noActiveOrg": "Vartotojas neturi aktyvių organizacijos ryšių"
+    },
+    "reg": {
+      "genericError": "Vartotojo registracija nepavyko",
+      "userExists": "Vartotojas jau egzistuoja",
+      "emailExists": "El. paštas jau egzistuoja",
+      "userCreationFailed": "Nepavyko sukurti vartotojo",
+      "orgExists": "Organizacija su nurodytu registracijos numeriu ir šalimi jau egzistuoja"
+    },
+    "devices": {
+      "deviceDisabled": "Vartotojo įrenginys išjungtas"
+    },
+    "rag": {
+      "multipleFiles": "Vienas užklausą leidžiamas tik vienas failas. Įkelkite kelis failus lygiagrečiai",
+      "collectionRequired": "collectionUUID yra privalomas",
+      "fileRequired": "Failas yra privalomas",
+      "serviceNotAvailable": "Failų įkėlimo paslauga nepasiekiama",
+      "uploadFailed": "Failo įkėlimas nepavyko",
+      "badGateway": "RAG paslaugos apdorojimas nepavyko",
+      "serviceUnavailable": "RAG paslauga nepasiekiama",
+      "internalError": "Užklausos apdorojimas nepavyko",
+      "processingFailed": "RAG paslaugos apdorojimas nepavyko",
+      "createCollectionFailed": "Kolekcijos sukurti nepavyko",
+      "deleteCollectionFileFailed": "Nepavyko ištrinti failo iš kolekcijos"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Jūsų paskyra patvirtinta",
+      "title": "Paskyra patvirtinta",
+      "greeting": "Sveiki, {{firstName}}!",
+      "text": "Gavote šį el. laišką, nes jūsų paskyra buvo patvirtinta ir dabar galite prisijungti.",
+      "link": "Prisijungti",
+      "signature": "Ačiū",
+      "team": "Platformos komanda",
+      "rightsReserved": "@2024 {{agentName}}. Visos teisės saugomos."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Informacija apie jūsų registraciją",
+      "title": "Paskyros paraiška atmesta",
+      "greeting": "Gerb. {{firstName}}!",
+      "text1": "Dėkojame už susidomėjimą {{agentName}}. Vertiname jūsų susidomėjimą mūsų debesijos paslaugomis.",
+      "text2": "Peržiūrėję jūsų registraciją, deja, turime pranešti, kad šiuo metu negalime patvirtinti jūsų paskyros.",
+      "signature": "Su geriausiais linkėjimais,",
+      "team": "Platformos komanda"
+    },
+    "userWaiting": {
+      "subject": "Naujas vartotojas užsiregistravo {{name}}",
+      "title": "Naujas vartotojas laukia patvirtinimo",
+      "subTitle": "Naujas vartotojas užsiregistravo ir laukia jūsų patvirtinimo.",
+      "description": "Peržiūrėkite toliau pateiktą informaciją ir pasirinkite, ar patvirtinti, ar atmesti paskyrą administratoriaus valdymo pulte.",
+      "userInfo": "Vartotojo informacija",
+      "fullName": "Vardas ir pavardė",
+      "email": "El. paštas",
+      "username": "Vartotojo vardas",
+      "preferredLanguage": "Pageidaujama kalba",
+      "registered": "Užsiregistravo",
+      "clickToDashboard": "Spustelėkite čia, kad atidarytumėte administratoriaus valdymo pultą",
+      "openBtn": "Atidaryti valdymo pultą",
+      "info": "Kai patvirtinsite arba atmesite vartotoją, jam automatiškai bus išsiųstas pranešimas el. paštu apie sprendimą.",
+      "signature": "Ačiū",
+      "team": "Platformos komanda",
+      "footer": " Šis pranešimas buvo išsiųstas jūsų administratoriaus el. pašto adresu. Jei manote, kad šis laiškas išsiųstas klaidingai, susisiekite su pagalbos komanda."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} slaptažodžio atkūrimo užklausa",
+      "title": "Slaptažodžio atkūrimo užklausa",
+      "greeting": "Gerb. {{name}}!",
+      "text1": "Pateikėte prašymą atkurti savo paskyros slaptažodį.",
+      "text2": "Spustelėkite žemiau esančią nuorodą, kad atkurtumėte savo slaptažodį:",
+      "link": "Atkurti slaptažodį",
+      "signature": "Su geriausiais linkėjimais,",
+      "team": "Platformos komanda"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} vienkartinis kodas",
+      "title": "Vienkartinis kodas (OTP)",
+      "greeting": "Gerb. {{name}}!",
+      "text1": "Pateikėte prašymą atkurti savo paskyros slaptažodį.",
+      "text2": "Naudokite toliau pateiktą OTP kodą slaptažodžio atkūrimui patvirtinti:",
+      "link": "Atkurti slaptažodį",
+      "signature": "Su geriausiais linkėjimais,",
+      "team": "Platformos komanda"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} kvietimas",
+      "title": "Kvietimas prisijungti prie {{orgName}}",
+      "greeting": "Gerb. {{name}}!",
+      "text1": "Jūs pakvietė prisijungti prie organizacijos {{orgName}}.",
+      "text2": "Spustelėkite žemiau esančią nuorodą, kad priimtumėte kvietimą:",
+      "link": "Priimti kvietimą",
+      "signature": "Su geriausiais linkėjimais,",
+      "team": "Platformos komanda"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Nepavyko parengti ištekliaus. Bandykite dar kartą vėliau."
+  },
+  "userInvitation": {
+    "userCreateError": "Nepavyko sukurti vartotojo",
+    "organizationNotFound": "Organizacija nerasta",
+    "activeInviteExists": "Šiam el. paštui ir organizacijai jau yra aktyvus kvietimas",
+    "externalServiceError": "Įvyko išorinės paslaugos klaida",
+    "userNotFound": "Vartotojas nerastas",
+    "emailMismatch": "El. paštas nesutampa su kvietimu",
+    "invalidInvitationCode": "Neteisingas arba pasibaigęs kvietimo kodas",
+    "otpRequired": "Reikalingas OTP kodas",
+    "invalidOTP": "Neteisingas arba pasibaigęs OTP kodas",
+    "invitationNotFound": "Kvietimas nerastas",
+    "alreadyExpired": "Kvietimas jau pasibaigęs",
+    "emailError": "Nepavyko išsiųsti kvietimo el. laiško. Įvyko el. pašto paslaugos klaida"
+  }
+}

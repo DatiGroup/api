@@ -1,0 +1,200 @@
+{
+  "errors": {
+    "userNotFound": "Kasutajat ei leitud",
+    "agentNotFound": "Agenti ei leitud",
+    "userDisabled": "Kasutaja on keelatud",
+    "passwordMissing": "Parool ei ole määratud",
+    "wrongLogin": "Vale kasutajanimi või parool",
+    "forbidden": "Keelatud",
+    "missingOrg": "Organisatsiooni ei leitud",
+    "deviceDisabled": "Kasutaja seade on keelatud",
+    "userExists": "Kasutaja juba eksisteerib",
+    "emailExists": "E-post juba eksisteerib",
+    "orgExists": "Organisatsioon antud registrikoodi ja riigiga juba eksisteerib",
+    "userCreationFailed": "Kasutaja loomine ebaõnnestus",
+    "registrationFailed": "Kasutaja registreerimine ebaõnnestus",
+    "generic": "Midagi läks valesti",
+    "badGateway": "Välisteenuse töötlemine ebaõnnestus",
+    "serviceUnavailable": "Välisteenus ei ole kättesaadav",
+    "internalError": "Välisteenus ei suutnud päringut töödelda",
+    "notFound": "Ei leitud",
+    "resources": {
+      "orgMismatch": "Kasutaja organisatsiooni mittevastavus",
+      "orgNoAccess": "Kasutajal puudub juurdepääs sellele organisatsioonile",
+      "orgNoBase": "Põhiressurss puudub organisatsiooni jaoks",
+      "notFound": "Ressursitaotlust ei leitud",
+      "notActive": "Ressurss ei ole aktiivne",
+      "hasChildren": "Ressursil on sõltuvad alamressursid",
+      "securityGroupAssigned": "Turvagrupp on aktiivsete määrangutega"
+    },
+    "translations": {
+      "apiError": "Google Translate API viga"
+    },
+    "user": {
+      "failedToGet": "Kasutajate hankimine ebaõnnestus",
+      "failedStatus": "Kasutaja staatuse muutmine ebaõnnestus"
+    },
+    "products": {
+      "failedToGet": "Toodete hankimine ebaõnnestus",
+      "invalidResourceType": "Kehtetu ressursi tüüp",
+      "createFailed": "Toote loomine ebaõnnestus",
+      "notFound": "Toodet ei leitud",
+      "updateFailed": "Toote uuendamine ebaõnnestus",
+      "failedToDelete": "Toote kustutamine ebaõnnestus",
+      "failedDependencies": "Toote sõltuvuste hankimine ebaõnnestus",
+      "invalidParentResourceType": "Kehtetu vanemressursi tüüp",
+      "createDependencyFailed": "Toote sõltuvuse loomine ebaõnnestus",
+      "dependencyNotFound": "Toote sõltuvust ei leitud",
+      "dependencyUpdateFailed": "Toote sõltuvuse uuendamine ebaõnnestus",
+      "dependencyFailedToGet": "Toote sõltuvuste hankimine ebaõnnestus",
+      "dependencyFailedToDelete": "Toote sõltuvuse kustutamine ebaõnnestus",
+      "priceOverlap": "Tootel on juba olemas hind, mille kuupäevade vahemik kattub",
+      "priceNotFound": "Toote hinda ei leitud",
+      "failedResources": "Ressursside hankimine ebaõnnestus",
+      "failedProductResources": "Toote ressursside hankimine ebaõnnestus"
+    },
+    "organization": {
+      "orgNonActive": "Organisatsioon ei ole kasutaja jaoks aktiivne",
+      "failedToSwitch": "Organisatsiooni vahetamine ebaõnnestus"
+    },
+    "lookups": {
+      "failedToGetLang": "Keelte hankimine ebaõnnestus",
+      "failedToGetLookups": "Vaatlusandmete hankimine ebaõnnestus",
+      "lookupExists": "Vaatlusandmete tüüp juba eksisteerib",
+      "failedToCreate": "Vaatlusandmete loomine ebaõnnestus",
+      "lookupNotFound": "Vaatlusandmete tüüp ei leitud",
+      "failedToUpdate": "Vaatlusandmete uuendamine ebaõnnestus",
+      "lookupValueExists": "Vaatlusandmete väärtus juba eksisteerib"
+    },
+    "auth": {
+      "noUser": "Kasutajat ei leitud",
+      "accountDisabled": "Konto on keelatud",
+      "sessionFailed": "Sessiooni loomine ebaõnnestus",
+      "keycloakError": "Keycloak autoriseerimine ebaõnnestus",
+      "expirationError": "Tokeni aegumisaega ei leitud",
+      "orgError": "Kasutajal puuduvad aktiivsed organisatsiooni suhted",
+      "loginError": "Kasutaja sisselogimine ebaõnnestus",
+      "refreshError": "Värskendustoken ebaõnnestus",
+      "logoutError": "Väljalogimine ebaõnnestus",
+      "generic": "Autentimise viga",
+      "tooManyRequests": "Liiga palju päringuid",
+      "tooManyOTPRequests": "Liiga palju OTP katseid e-posti aadressile: {{email}}",
+      "noRedisToken": "Tokenit ei leitud Redisest: {{email}}",
+      "otpExpired": "OTP aegunud: {{email}}",
+      "notApproved": "Kasutaja ei ole kinnitatud: {{email}}",
+      "captchaFailed": "Captcha valideerimine ebaõnnestus",
+      "invalidResetToken": "Kasutate kehtetut või aegunud parooli lähtestamise linki",
+      "invalidCredentials": "Kehtetu kasutajanimi või parool",
+      "noActiveOrg": "Kasutajal puuduvad aktiivsed organisatsiooni suhted"
+    },
+    "reg": {
+      "genericError": "Kasutaja registreerimine ebaõnnestus",
+      "userExists": "Kasutaja juba eksisteerib",
+      "emailExists": "E-posti aadress juba eksisteerib",
+      "userCreationFailed": "Kasutaja loomine ebaõnnestus",
+      "orgExists": "Organisatsioon antud registrikoodi ja riigi alusel juba eksisteerib"
+    },
+    "devices": {
+      "deviceDisabled": "Kasutaja seade on keelatud"
+    },
+    "rag": {
+      "multipleFiles": "Võimalik on ainult üks fail päringu kohta. Laadige mitu faili paralleelselt üles",
+      "collectionRequired": "collectionUUID on kohustuslik",
+      "fileRequired": "Fail on kohustuslik",
+      "serviceNotAvailable": "Faili üleslaadimise teenus pole saadaval",
+      "uploadFailed": "Faili üleslaadimine ebaõnnestus",
+      "badGateway": "RAG teenuse töötlemine ebaõnnestus",
+      "serviceUnavailable": "RAG teenus pole kättesaadav",
+      "internalError": "Päringu töötlemine ebaõnnestus",
+      "processingFailed": "RAG teenuse töötlemine ebaõnnestus",
+      "createCollectionFailed": "Kollektsiooni loomine ebaõnnestus",
+      "deleteCollectionFileFailed": "Faili kustutamine kollektsioonist ebaõnnestus"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Teie konto on kinnitatud",
+      "title": "Konto kinnitatud",
+      "greeting": "Tere, {{firstName}}!",
+      "text": "Saite selle e-kirja, sest teie konto on kinnitatud ja saate nüüd sisse logida.",
+      "link": "Logi sisse",
+      "signature": "Täname",
+      "team": "Platvormi meeskond",
+      "rightsReserved": "@2024 {{agentName}}. Kõik õigused kaitstud."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Teade teie registreerimise kohta",
+      "title": "Konto taotlus lükati tagasi",
+      "greeting": "Lugupeetud {{firstName}}!",
+      "text1": "Täname teid huvi eest {{agentName}} vastu. Hindame teie huvi meie pilveteenuste vastu.",
+      "text2": "Pärast teie registreerimise ülevaatamist peame kahjuks teatama, et me ei saa teie kontot praegu kinnitada.",
+      "signature": "Parimate soovidega,",
+      "team": "Platvormi meeskond"
+    },
+    "userWaiting": {
+      "subject": "Uus kasutaja registreerunud {{name}}",
+      "title": "Uus kasutaja ootab kinnitamist",
+      "subTitle": "Uus kasutaja on registreerunud ja vajab teie ülevaatust.",
+      "description": "Palun vaadake allolevad andmed üle ja otsustage administraatori juhtpaneelil, kas konto kinnitada või tagasi lükata.",
+      "userInfo": "Kasutaja teave",
+      "fullName": "Täisnimi",
+      "email": "E-post",
+      "username": "Kasutajanimi",
+      "preferredLanguage": "Eelistatud keel",
+      "registered": "Registreeritud",
+      "clickToDashboard": "Klõpsake, et minna administraatori juhtpaneelile",
+      "openBtn": "Ava administraatori juhtpaneel",
+      "info": "Pärast kasutaja kinnitamist või tagasilükkamist saadetakse talle automaatselt e-kiri otsusest teavitamiseks.",
+      "signature": "Täname",
+      "team": "Platvormi meeskond",
+      "footer": " See sõnum saadeti teie administraatori e-postile. Kui arvate, et see saadeti ekslikult, võtke ühendust toe meeskonnaga."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} parooli lähtestamise taotlus",
+      "title": "Parooli lähtestamise taotlus",
+      "greeting": "Lugupeetud {{name}}!",
+      "text1": "Te taotlesite oma konto parooli lähtestamist.",
+      "text2": "Palun klõpsake alloleval lingil, et oma parool lähtestada:",
+      "link": "Lähtesta parool",
+      "signature": "Parimate soovidega,",
+      "team": "Platvormi meeskond"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} ühekordne kood",
+      "title": "Ühekordne kood (OTP)",
+      "greeting": "Lugupeetud {{name}}!",
+      "text1": "Te taotlesite oma konto parooli lähtestamist.",
+      "text2": "Palun kasutage järgmist OTP-koodi parooli lähtestamise kinnitamiseks:",
+      "link": "Lähtesta parool",
+      "signature": "Parimate soovidega,",
+      "team": "Platvormi meeskond"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} kutse",
+      "title": "Kutse liituda {{orgName}}",
+      "greeting": "Lugupeetud, {{name}}!",
+      "text1": "Teid on kutsutud liituma organisatsiooniga {{orgName}}.",
+      "text2": "Palun klõpsake kutse vastuvõtmiseks allolevat linki:",
+      "link": "Võta kutse vastu",
+      "signature": "Parimate soovidega,",
+      "team": "Platvormi meeskond"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Ressursi ettevalmistamine ebaõnnestus. Palun proovige hiljem uuesti."
+  },
+  "userInvitation": {
+    "userCreateError": "Kasutaja loomine ebaõnnestus",
+    "organizationNotFound": "Organisatsiooni ei leitud",
+    "activeInviteExists": "Sellele e-postile ja organisatsioonile on juba aktiivne kutse",
+    "externalServiceError": "Tekkis välisteenuse viga",
+    "userNotFound": "Kasutajat ei leitud",
+    "emailMismatch": "E-post ei ühti kutsega",
+    "invalidInvitationCode": "Vigane või aegunud kutsekood",
+    "otpRequired": "OTP kood on vajalik",
+    "invalidOTP": "Vigane või aegunud OTP kood",
+    "invitationNotFound": "Kutset ei leitud",
+    "alreadyExpired": "Kutse on juba aegunud",
+    "emailError": "Kutse e-kirja saatmine ebaõnnestus. E-posti teenuse viga"
+  }
+}

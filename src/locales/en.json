@@ -1,0 +1,203 @@
+{
+  "errors": {
+    "userNotFound": "User not found",
+    "agentNotFound": "Agent not found",
+    "userDisabled": "User is disabled",
+    "passwordMissing": "Password is not set",
+    "wrongLogin": "Password or username is incorrect",
+    "forbidden": "Forbidden",
+    "missingOrg": "Organization not found",
+    "deviceDisabled": "User device is disabled",
+    "userExists": "User already exists",
+    "emailExists": "Email already exists",
+    "orgExists": "Organization with the given registration number and country already exists",
+    "userCreationFailed": "Failed to create user",
+    "registrationFailed": "User registration failed",
+    "generic": "Something went wrong",
+    "badGateway": "External service processing failed",
+    "serviceUnavailable": "External service is unreachable",
+    "internalError": "External service failed to process request",
+    "notFound": "Not found",
+    "resources": {
+      "orgMismatch": "User organization mismatch",
+      "orgNoAccess": "User does not have access to this organization",
+      "orgNoBase": "Missing base resoure for organization",
+      "notFound": "Resource request not found",
+      "notActive": "Resource is not active",
+      "hasChildren": "Resource has dependent child resources",
+      "securityGroupAssigned": "Security group has active assignments"
+    },
+    "translations": {
+      "apiError": "Google Translate API error"
+    },
+    "user": {
+      "failedToGet": "Failed to get users",
+      "failedStatus": "Failed to change user status"
+    },
+    "products": {
+      "failedToGet": "Failed to get products",
+      "invalidResourceType": "Invalid resource type",
+      "createFailed": "Failed to create product",
+      "notFound": "Product not found",
+      "updateFailed": "Failed to update product",
+      "failedToDelete": "Failed to delete product",
+      "failedDependencies": "Failed to get product dependencies",
+      "invalidParentResourceType": "Invalid parent resource type",
+      "createDependencyFailed": "Failed to create product dependency",
+      "dependencyNotFound": "Product dependency not found",
+      "dependencyUpdateFailed": "Failed to update product dependency",
+      "dependencyFailedToGet": "Failed to get product dependencies",
+      "dependencyFailedToDelete": "Failed to delete product dependency",
+      "priceOverlap": "A price with overlapping date range already exists for this product",
+      "priceNotFound": "Product price not found",
+      "failedResources": "Failed to get resources",
+      "failedProductResources": "Failed to get product resources"
+    },
+    "organization": {
+      "orgNonActive": "Organization not active for user",
+      "failedToSwitch": "Failed to switch organization"
+    },
+    "lookups": {
+      "failedToGetLang": "Failed to get languages",
+      "failedToGetLookups": "Failed to get lookups",
+      "lookupExists": "Lookup type already exists",
+      "failedToCreate": "Failed to create lookup",
+      "lookupNotFound": "Lookup type not found",
+      "failedToUpdate": "Failed to update lookup",
+      "lookupValueExists": "Lookup value already exists"
+    },
+    "auth": {
+      "noUser": "User not found",
+      "accountDisabled": "Account is disabled",
+      "sessionFailed": "Session creation failed",
+      "keycloakError": "Keycloak authorization failed",
+      "expirationError": "Can't find expiration time from token",
+      "orgError": "User has no active organization relations",
+      "loginError": "User login failed",
+      "refreshError": "Refresh token failed",
+      "logoutError": "Logout failed",
+      "generic": "Authentication error",
+      "tooManyRequests": "Too many requests, try again later.",
+      "tooManyOTPRequests": "Too many OTP attempts. Please try again later.",
+      "noRedisToken": "Cannot find token in redis: {{email}}",
+      "otpExpired": "Wrong or expired OTP code",
+      "notApproved": "User is not approved: {{email}}",
+      "captchaFailed": "Captcha validation failed",
+      "invalidResetToken": "You are using an invalid or expired password reset link",
+      "invalidCredentials": "Invalid username or password",
+      "noActiveOrg": "User has no active organization relations"
+    },
+    "reg": {
+      "genericError": "User registration failed",
+      "userExists": "User already exists",
+      "emailExists": "Email already exists",
+      "userCreationFailed": "Failed to create user",
+      "orgExists": "Organization with the given registration number and country already exists"
+    },
+    "devices": {
+      "deviceDisabled": "User device is disabled"
+    },
+    "rag": {
+      "multipleFiles": "Only one file per request is allowed. Upload multiple files in parallel",
+      "collectionRequired": "collectionUUID is required",
+      "fileRequired": "File is required",
+      "serviceNotAvailable": "File upload service not available",
+      "uploadFailed": "File upload failed",
+      "badGateway": "RAG service processing failed",
+      "serviceUnavailable": "RAG service is unreachable",
+      "internalError": "RAG service failed to process request",
+      "processingFailed": "RAG service processing failed",
+      "createCollectionFailed": "Failed to create collection",
+      "vectorizeCollectionFailed": "Failed to vectorize collection",
+      "deleteCollectionFailed": "Failed to delete collection",
+      "chatMissingFiles": "No files associated with this chat. Please upload files to enable RAG features",
+      "deleteCollectionFileFailed": "Failed to delete file from collection"
+    }
+  },
+  "templates": {
+    "approveUser": {
+      "subject": "{{agentName}} Your account has been approved",
+      "title": "Account approved",
+      "greeting": "Hello, {{firstName}}!",
+      "text": "You received this email because your account has been approved and you can now log in.",
+      "link": "Log in",
+      "signature": "Thanks",
+      "team": "The Platform Team",
+      "rightsReserved": "@2024 {{agentName}}. All rights reserved."
+    },
+    "rejectUser": {
+      "subject": "{{agentName}} Update on Your Registration",
+      "title": "Account approved",
+      "greeting": "Dear, {{firstName}}!",
+      "text1": "Thank you for your interest {{agentName}}. We appreciate your interest in our cloud services.",
+      "text2": "After reviewing your registration, we regret to inform you that we are unable to approve your account at this time.",
+      "signature": "Kind regards,",
+      "team": "The Platform Team"
+    },
+    "userWaiting": {
+      "subject": "New user registered {{name}}",
+      "title": "New user waiting approval",
+      "subTitle": "A new user has registered and requires your review.",
+      "description": "Please review the details below and choose whether to approve or reject the account in admin dashboard.",
+      "userInfo": "User information",
+      "fullName": "Full name",
+      "email": "Email",
+      "username": "Username",
+      "preferredLanguage": "Preferred language",
+      "registered": "Registered",
+      "clickToDashboard": "Click to go to the admin dashboard",
+      "openBtn": "Open admin dashboard",
+      "info": "After you approve or reject the user, a notification email will automatically be sent to the user informing them of the decision.",
+      "signature": "Thanks",
+      "team": "The Platform Team",
+      "footer": " This message was sent to your administrator email. If you believe this was sent in error, please contact support."
+    },
+    "passwordResetRequest": {
+      "subject": "{{agentName}} password reset request",
+      "title": "Password Reset Request",
+      "greeting": "Dear, {{name}}!",
+      "text1": "You requested a password reset for your account.",
+      "text2": "Please click the link below to reset your password:",
+      "link": "Reset Password",
+      "signature": "Kind regards,",
+      "team": "The Platform Team"
+    },
+    "passwordOtp": {
+      "subject": "{{agentName}} one time code",
+      "title": "One Time Code (OTP)",
+      "greeting": "Dear, {{name}}!",
+      "text1": "You requested a password reset for your account.",
+      "text2": "Please use the following OTP code to confirm password reset:",
+      "link": "Reset Password",
+      "signature": "Kind regards,",
+      "team": "The Platform Team"
+    },
+    "inviteMember": {
+      "subject": "{{orgName}} invitation",
+      "title": "Inivitation to join {{orgName}}",
+      "greeting": "Dear, {{name}}!",
+      "text1": "You are invited to join the organization {{orgName}}.",
+      "text2": "Please click the link below accept invitation:",
+      "link": "Accept Invitation",
+      "signature": "Kind regards,",
+      "team": "The Platform Team"
+    }
+  },
+  "infra": {
+    "provisionFailed": "Failed to provision resource. Please try again later."
+  },
+  "userInvitation": {
+    "userCreateError": "Failed to create user",
+    "organizationNotFound": "Organization not found",
+    "activeInviteExists": "An active invitation already exists for this email and organization",
+    "externalServiceError": "External service error occurred",
+    "userNotFound": "User not found",
+    "emailMismatch": "Email does not match the invitation",
+    "invalidInvitationCode": "Invalid or expired invitation code",
+    "otpRequired": "OTP code is required",
+    "invalidOTP": "Invalid or expired OTP code",
+    "invitationNotFound": "Invitation not found",
+    "alreadyExpired": "Invitation is already expired",
+    "emailError": "Failed to send invitation email. Email service error occurred"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "execMap": {
+        "ts": "ts-node --transpile-only"
+    },
+    "ignore": [
+        "src/__test__/**",
+        "docs/**",
+        "dist/**"
+    ]
+}

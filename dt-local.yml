@@ -1,0 +1,63 @@
+services:
+  dt-postgres:
+    image: postgres:15
+    container_name: dt-postgres
+    restart: always
+    ports:
+      - '5432:5432'
+    networks:
+      - DigitalTwinsNetwork
+    env_file: Postgres.env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U admin -d DigitalTwins']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  dt-redis:
+    image: redis:7-alpine
+    container_name: dt-redis
+    restart: always
+    ports:
+      - '6379:6379'
+    env_file: Redis.env
+    networks:
+      - DigitalTwinsNetwork
+    volumes:
+      - redis_data:/data
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command:
+      [
+        'redis-server',
+        '/usr/local/etc/redis/redis.conf',
+        '--maxmemory',
+        '64mb',
+        '--maxmemory-policy',
+        'allkeys-lru',
+      ]
+
+  dt-keycloak:
+    image: quay.io/keycloak/keycloak:25.0.4
+    container_name: dt-keycloak
+    restart: always
+    command: ['start-dev', '--import-realm']
+    env_file: Keycloak.env
+    ports:
+      - '8080:8080'
+    networks:
+      - DigitalTwinsNetwork
+    volumes:
+      - ./realm-export.json:/opt/keycloak/data/import/realm-export.json
+      - keycloak_data:/opt/keycloak/data
+
+volumes:
+  pgdata:
+  redis_data:
+  keycloak_data:
+
+networks:
+  DigitalTwinsNetwork:
+    name: DigitalTwinsNetwork
+    driver: bridge

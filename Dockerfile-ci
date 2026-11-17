@@ -1,0 +1,58 @@
+# Docker multistage build
+FROM node:24-bullseye AS builder
+
+WORKDIR /build
+# Copy package manifests first for dependency layer caching
+COPY package.json ./
+COPY yarn.lock ./
+
+# Install ALL dependencies (production and development)
+# 'npm run build' needs devDependencies like 'typescript' and 'rimraf'.
+RUN corepack enable && yarn install --frozen-lockfile
+
+# Copy all application source code into the build directory AFTER dependencies are installed.
+# This includes 'src', 'scripts', 'test', 'tsconfig.json' etc., which are needed for 'npm run build'.
+COPY . .
+
+# Run the build script to compile TypeScript and copy static assets.
+# This will create the 'dist' directory with 'server.js' and other compiled/copied assets.
+RUN yarn run build
+
+
+# --- starts to build the final app image ---
+FROM node:24-alpine
+
+# dumb-init registers signal handlers for every signal that can be caught
+RUN apk update && apk add --no-cache \
+    dumb-init
+
+# set envs
+ENV HOME=/home/app
+ENV APP_HOME=$HOME/node/
+
+
+# change working directory to the application home
+WORKDIR $APP_HOME
+
+# Copy only necessary artifacts from the builder stage to keep the final image small:
+# 1. The compiled JavaScript application and static assets from 'dist'.
+COPY --chown=node:node --from=builder /build/dist $HOME/node/dist
+# 2. package.json is needed for the 'npm start' command.
+COPY --chown=node:node --from=builder /build/package.json $HOME/node/package.json
+# 3. node_modules installed during the builder stage.
+COPY --chown=node:node --from=builder /build/node_modules $HOME/node/node_modules
+
+#translations in weir dir
+COPY --chown=node:node --from=builder /build/src/locales $HOME/node/src/locales
+
+# NOTE: If your 'scripts' folder (e.g., 'scripts/copyTemplates.js')
+# contains files that are explicitly needed at runtime by 'server.js'
+# and are NOT moved into 'dist' by your 'build' script, you might need to copy them too:
+# COPY --chown=node:node --from=builder /build/scripts $APP_HOME/scripts
+
+# Run app with low permissions level user
+USER node
+
+EXPOSE 3000
+ENTRYPOINT ["dumb-init"]
+CMD ["node", "dist/server.js"]
